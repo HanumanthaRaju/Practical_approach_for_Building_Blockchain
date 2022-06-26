@@ -44,6 +44,30 @@ image credits: https://www.gradelink.com/wp-content/uploads/2019/03/DigitalAtten
 1. Hashes are deterministic i.e. anybody using the MD5 algorithm and hashing A few sandwiches short of a picnic will always get the same output 34f1672ddd2dbb90835e0704ff9d80b2
 2. Blockchain are great because, once a block is added it cannot be changed without invalidating the other blocks of the chain, as the hash would change.
 3. Anyone running the Blockchain software has an up-to-date copy of this ledger on their computer. Every user can verify how the Blockchain has been appended over the time.
+![outcome](./06.jpg)
+
+# Blockchain-Structure:
+•	So, a Blockchain is an immutable, sequential chain of records called Blocks. They can contain transactions, files or any data you like. But the important thing is that they are chained together using hashes like a linked list.
+•	Each block has an index, a time stamp (in unix time), a list of transactions, a proof(POW), and the hash of the previous block
+![outcome](./07.jpg)
+
+# Types of Consensus algorithms:
+Source: https://medium.com/@BangBitTech/what-is-consensus-algorithm-in-blockchain-different-types-of-consensus-models-12cce443fc77
+•	Proof of Stake (PoS)
+•	Delegated Proof-of-Stake (DPoS)
+•	Byzantine Fault Tolerance (BFT)
+•	Practical Byzantine Fault Tolerance (PBFT)
+•	SIEVE
+•	Proof-of-Weight (PoW)
+•	Unique Node Lists (UNL)
+•	Proof-of-Burn (PoB)
+•	Proof-of-Activity (PoA)
+•	Proof-of-Capacity (PoC)
+
+
+
+
+
 
 
 
