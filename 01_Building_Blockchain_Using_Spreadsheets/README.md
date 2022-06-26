@@ -5,7 +5,7 @@
 
 # Hashing and the need for Hashing:
 A way to assign a unique, random string of alphanumeric to any data.
-![outcome](./02.jpg)
+![outcome](./02.JPG)
 
 # Summary- Hashing helps block to connect in a chain that is chronological and permanent
 1. It’s a way to assign a unique, random string of digitals to any data– a sentence, photograph, spreadsheet, or any installed program.
