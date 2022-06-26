@@ -60,7 +60,7 @@ image credits: https://www.gradelink.com/wp-content/uploads/2019/03/DigitalAtten
 # Blockchain-Structure:
 •	So, a Blockchain is an immutable, sequential chain of records called Blocks. They can contain transactions, files or any data you like. But the important thing is that they are chained together using hashes like a linked list.
 •	Each block has an index, a time stamp (in unix time), a list of transactions, a proof(POW), and the hash of the previous block
-![outcome](./07.jpg)
+![outcome](./07.JPG)
 
 # Types of Consensus algorithms:
 Source: https://medium.com/@BangBitTech/what-is-consensus-algorithm-in-blockchain-different-types-of-consensus-models-12cce443fc77
