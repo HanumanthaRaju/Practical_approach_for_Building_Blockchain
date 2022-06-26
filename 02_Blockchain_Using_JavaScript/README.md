@@ -18,19 +18,19 @@ Install these tools specific to the operating system of your choice.
 
 # 01_Simple_Blockchain.js
 ### Output
-![outcome](./01.JPG)
+![outcome](./01.jpg)
 
 
 # 02_is_Chian_valid.js:
 ### Output
-![outcome](./02.JPG)
+![outcome](./02.jpg)
 
 # 03_Implementing_Proof_of_work.js
 ### Output
-![outcome](./03.JPG)
+![outcome](./03.jpg)
 
 # 04_transaction_and_rewards.js
-![outcome](./04.JPG)
+![outcome](./04.jpg)
 
 # Validity of Blockchain:
 •	Block chains are great because, once a block is added, it cannot be changed without invalidating the other blocks of the chain as the integrity gets lost
@@ -40,7 +40,7 @@ Install these tools specific to the operating system of your choice.
 •	Wallets-Software that keeps track of transactions sent to your public key (think as address)
 
 Behind the scenes of Blockchain-Demo: https://savjee.github.io/savjeecoin-frontend/
-![outcome](./05.JPG)
+![outcome](./05.jpg)
 
 # Smart Contracts- Car auction: https://developer.ibm.com/technologies/blockchain/patterns/car-auction-network-hyperledger-fabric-node-sdk-starter-plan/
 1. Blockchain technology is essentially an accounting system that is operated by a network that follows a set of rules laid out by code- src
@@ -73,7 +73,7 @@ Behind the scenes of Blockchain-Demo: https://savjee.github.io/savjeecoin-fronte
 # Blockchain Essentials Free course- By IBM:
 https://cognitiveclass.ai/courses/blockchain-course?course=begin#10954
 
-![outcome](./06.JPG)
+![outcome](./06.jpg)
 
 # References:	
 1. https://tools.superdatascience.com/blockchain/hash/
