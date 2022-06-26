@@ -29,7 +29,7 @@ A way to assign a unique, random string of alphanumeric to any data.
 
 # Traditional way of taking Attendance
 image credits: https://www.gradelink.com/wp-content/uploads/2019/03/DigitalAttendance.jpg
-![outcome](./03.JPG)
+![outcome](./08.JPG)
 
 # Taking Attendance in classroom-Traditional vs. Blockchain -src credits
 •	A simple way of looking at how it works can be through the perspective of taking attendance in a classroom. 
