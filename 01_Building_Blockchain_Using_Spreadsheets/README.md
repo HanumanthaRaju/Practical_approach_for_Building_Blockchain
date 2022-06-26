@@ -9,6 +9,7 @@ Source: https://stackoverflow.com/questions/7994410/hash-of-a-cell-text-in-googl
 In the excel click on any of the cell, provide the data in that cell, move to the next cell and use the commands below:
 •	MD5(provide cell number)
 •	SHA256(provide Cell number)
+
 ![outcome](./02.jpg)
 
 •	If Blockchain contain bricks, hashing is the mortar — the magic sauce that holds everything together.
@@ -23,7 +24,9 @@ In the excel click on any of the cell, provide the data in that cell, move to th
 •	If you studied the valid block carefully you’d notice something strange about the hash: it starts with six zeros! Which is weird because the first thing we learnt was that hashes are random. So what’s the probability of hashing something that starts with 6 zeros? About 1 in 2²⁴ = 16,777,216 or extremely unlikely.
 •	This is the rule for determining if blocks are valid—if they start with a certain number of zeros (I chose 6 for this example).
 •	To drive this concept home, try getting the block’s hash to begin with a single 0. It should take you on average 16 attempts.
+
 ![outcome](./04.jpg)
+
 
 # The job of a miner:
 •	A miner is someone on the network interested in creating new bitcoins by forming a new block.
@@ -40,6 +43,7 @@ In the excel click on any of the cell, provide the data in that cell, move to th
 
 # The immutability of Blockchain:
 •	When a block is hashed, it contains the previous block’s hash in the Previous Hash field. This is why it’s called a “chain”. This may seem superficial but it’s what gives the blockchain immutability—a single change anywhere invalidates the hashes of all the subsequent blocks
+
 ![outcome](./05.jpg)
 
 # Concepts not covered?
@@ -47,7 +51,9 @@ In the excel click on any of the cell, provide the data in that cell, move to th
 •	Wallets—software that keeps track of transactions sent to your public key (think address). Most wallets are Bitcoin nodes themselves.
 
 # MD5 in python-gives same output:
+
 ![outcome](./06.jpg)
+
 
 # Blockchain VSs traditional Databases
 No one in the Blockchain has more decision making power than anyone else
@@ -57,15 +63,19 @@ No one in the Blockchain has more decision making power than anyone else
 •	Traditional databases are better suited for all kinds of information, whereas Blockchain technology is well suited to record certain kinds of peer-peer transactions
 
 # What kind of databases are used by Blockchain platforms? Protocols: https://medium.com/edchain/a-comparison-between-5-major-blockchain-protocols-b8a6a46f8b1f
+
 ![outcome](./07.jpg)
 
 # Use cases:
 ### Student Marks Sheet verification:
+
 ![outcome](./08.jpg)
+
 
 ![outcome](./09.jpg)
 
 # Attendance sheet management:
+
 ![outcome](./10.jpg)
 
 # Access the Spreadsheet from here:
