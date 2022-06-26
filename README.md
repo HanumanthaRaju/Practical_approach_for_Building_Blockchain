@@ -74,3 +74,5 @@ Source: https://medium.com/@BangBitTech/what-is-consensus-algorithm-in-blockchai
 •	Proof-of-Burn (PoB)
 •	Proof-of-Activity (PoA)
 •	Proof-of-Capacity (PoC)
+
+![outcome](./08.jpg)
