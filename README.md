@@ -29,7 +29,7 @@ A way to assign a unique, random string of alphanumeric to any data.
 
 # Traditional way of taking Attendance
 image credits: https://www.gradelink.com/wp-content/uploads/2019/03/DigitalAttendance.jpg
-![outcome](./08.JPG)
+![outcome](./03.jpg)
 
 # Taking Attendance in classroom-Traditional vs. Blockchain -src credits
 •	A simple way of looking at how it works can be through the perspective of taking attendance in a classroom. 
@@ -75,4 +75,4 @@ Source: https://medium.com/@BangBitTech/what-is-consensus-algorithm-in-blockchai
 •	Proof-of-Activity (PoA)
 •	Proof-of-Capacity (PoC)
 
-![outcome](./08.jpg)
+![outcome](./08.JPG)
