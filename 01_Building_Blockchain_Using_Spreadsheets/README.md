@@ -2,6 +2,8 @@
 
 The best way to learn Blockchain is to build one and play with it:
 Source: https://stackoverflow.com/questions/7994410/hash-of-a-cell-text-in-google-spreadsheet
+
+
 ![outcome](./01.JPG)
 
 In the excel click on any of the cell, provide the data in that cell, move to the next cell and use the commands below:
@@ -65,6 +67,15 @@ No one in the Blockchain has more decision making power than anyone else
 
 # Attendance sheet management:
 ![outcome](./10.jpg)
+
+# Access the Spreadsheet from here:
+https://docs.google.com/spreadsheets/d/1mmYtD4_f3zDt1G4TLHgVJR4U7xlXm5I4DcsiGVqBnl4/edit?usp=sharing
+
+# Algorithms used from here:
+https://docs.google.com/document/d/1vqgKHR1S2WP_jBuO0--ApCRXgbjNG5FEoEXgV2-8Y3A/edit?usp=sharing
+
+# Google colab notebook for finding the hash from here:
+https://colab.research.google.com/drive/1FHcnTRzjHhwBNDhmOAeMOroAcY2vwQP_?usp=sharing
 
 # References:
 1.	https://www.includehelp.com/data-structure-tutorial/hashing.aspx
