@@ -2,7 +2,7 @@
 
 The best way to learn Blockchain is to build one and play with it:
 Source: https://stackoverflow.com/questions/7994410/hash-of-a-cell-text-in-google-spreadsheet
-![outcome](./01.jpg)
+![outcome](./01.JPG)
 
 In the excel click on any of the cell, provide the data in that cell, move to the next cell and use the commands below:
 •	MD5(provide cell number)
