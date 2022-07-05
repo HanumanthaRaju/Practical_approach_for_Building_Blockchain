@@ -40,9 +40,9 @@ Contract’s State changes on all the nodes Owner
 Owner checks the contract’s balance
 Contract’s state is fetched from one node Owner
 
-![outcome](./03.jpg)
+![outcome](./03.JPG)
 
-![outcome](./04.JPG)
+![outcome](./04.jpg)
 
 
 # Steps in developing a Smart Contract:
