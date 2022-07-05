@@ -1,146 +1,107 @@
-# Build Your Own Blockchain Using Python Programming Language
-# Installation files:
-1. Download Anaconda python distribution: https://www.anaconda.com/products/individual
-2. Install Flask: pip install Flask==0.12.2, using anaconda prompt in windows.
-3. Install Postman: https://www.postman.com/downloads/
+# Basics of Solidity Programming for Developing Smart Contracts
 
-#Anaconda Python Distribution:
-Anaconda is a distribution of the Python and R programming languages for scientific computing (data science, machine learning applications, large-scale data processing, predictive analytics, etc.), that aims to simplify package management and deployment. The distribution includes data-science packages suitable for Windows, Linux, and macOS.
+# Smart Contracts:
+•	Computer algorithms can be written to automatically execute the terms of a contract.For example, Company X pay $1,000 to Company Y when shipping 	company provides proof of delivery of Package A to Company X
+•	Blockchain distributed ledgers can be used to not only store the proof of delivery record, but instructions on what to do (terms of the contract) and scripts to execute the instructions (supply chain example)
+•	Alternatively, solar power systems on buildings belonging to different owners can be set to negotiate the transfer of power from one to the other when one needs power and the other has excess available.
+
+# Ethereum Blockchain:
 
 ![outcome](./01.jpg)
 
-#Spyder IDE:
+
+
+# What is Ethereum?
+•	The official website’s definition of Ethereum is as follows: https://ethereum.org/en/
+•	“Ethereum is a global, open-source platform for decentralized applications. On Ethereum, you can write code that controls digital value, runs exactly as programmed, and is accessible anywhere in the world”.
+•	The Blockchain technology (in general) and mainly the Ethereum exist to remedy this.
+•	Ethereum’s vision is to build a ‘new internet.’ One that would be decentralized as it was always meant to be. An internet where,
+•	Peer-to-peer networks would replace the client-server model.
+•	Any data would be owned only by its creator.
+•	There would be no monopoly of data.
+•	Applications won’t steal data in the name of ‘tailor-made’ services.
+•	The National Institute of Standards and Technology (NIST) of the United States of America defines smart contracts as –
+•	“A collection of code and data (sometimes referred to as functions and state) that is deployed using cryptographically signed transactions on the blockchain network.”
+•	Smart contracts utilize mathematical algorithms, hence they eliminate the requirement of middle-men to uphold their sanctity and ensure enforcement.
+
+
+# Smart Contracts:
+•	In the form of  code
+•	Stored on a  Blockchain
+•	Executes under given conditions
+
+
 ![outcome](./02.jpg)
 
-#Flask:
-Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools.
+Owner creates the contract
+Contract replicates among all the nodes Owner
+Tenant deposits to the contract
+Contract’s State changes on all the nodes Owner
+Owner checks the contract’s balance
+Contract’s state is fetched from one node Owner
 
 ![outcome](./03.jpg)
 
-#Postman:
-Postman is free to download and use for teams of any size. Wide support for all APIs and Schemas. Make any kind of API call—REST, SOAP, or plain HTTP—and easily inspect even the largest responses. Postman also has built—in support for popular data formats such as OpenAPI GraphQL, and RAML. It's Extensible. Customize Postman for your needs with the Postman API.
-
 ![outcome](./04.jpg)
 
-#Creating General Blockchain: blockchain.py
-#Output
+
+# Steps in developing a Smart Contract:
+1.	Developing a simple contract
+2.	Compiling the contract
+3.	Deploying the contract
+4.	Interacting with the contract
+5.	Adding more functions to our code to make it more practical
+
+# Solidity programming:
+•	Object-oriented
+•	Contract-oriented
+•	High-level language
+•	Influenced by C++, Python, and JavaScript
+•	Target Ethereum Virtual Machine (EVM)
+•	Serpent as an  Alternative?
+o	Low-level language
+o	Complex compiler
+
+# Create your First Transaction:
+Steps to be followed:
+1. Download, Install and Use a Wallet to Create a Transaction
+2. Installing Metamask: https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn
+3. Setup Metamask
+4. Get Free Ether
+5. Track funds: Go to https://etherscan.io/ 
 
 ![outcome](./05.jpg)
 
-
-
+# Lab: Use Remix IDE to Write your first Smart Contract
+Steps to be followed:
+1. Setup Remix: http://remix.ethereum.org
+2. irst Smart Contract
+3. Deploy Smart Contract
+4. Smart Contract Interaction
 
 ![outcome](./06.jpg)
 
-
-
-
+# Lab: Use different Blockchain Networks
+Steps to be followed:
+1. Smart Contract
+2. Injected Web3
+3. JavaScript VM
+4. Web3 Provider
 
 ![outcome](./07.jpg)
 
-
-
-
-
-![outcome](./08.jpg)
-
-
-
-
-
-#Decentralize Blockchain on several computers or servers:hadcoin_node_5001.py, hadcoin_node_5002.py, hadcoin_node_5003.py, nodes.json, transaction.json
-(here we are running on local host with three different terminals and port numbers) to create a crypto currency
-
-Open three consoles and run separate files on 5001, 5002 and 5003 ports respectively:
-
-![outcome](./09.jpg)
-
-
-
-
-
-![outcome](./10.jpg)
-
-
-
-
-
-![outcome](./11.jpg)
-
-
-
-
-![outcome](./12.jpg)
-
-
-•	Open three consoles and run separate files of hadcoin_node_5001 & 5002 & 5003 respectively.
-
-•	Open the postman and create three more tabs
-1. http://127.0.0.1:5001/get_chain
-2. http://127.0.0.1:5001/mine_block
-3. http://127.0.0.1:5002/get_chain
-4. http://127.0.0.1:5002/mine_block
-5. http://127.0.0.1:5003/get_chain
-6. http://127.0.0.1:5003/mine_block
-
-
-•	Make POST Requests to connect the nodes to each other
-For Node 5001:
-1. Select POST on each node
-2. Copy the code from nodes.json file.
-3. Make the request to node 5001 as : http://127.0.0.1:5001/connect_node
-4. Select Body→ raw→ json. Then paste the json code, remove the first line of the code, as the node itself is 5001.
-5. Then click Enter or Send.
-6. Repeat the same steps for Node 5002 and 5003.
-
-
-•	Now we test the consensus, what happens if on one node we get a chain that is larger than the chains on the other node
-1. Change request to GET on all the nodes and mine a block on node 5001.
-2. Use http://127.0.0.1:5001/mine_block 
-3. and then use  http://127.0.0.1:5001/get_chain
-4. Check the number of blocks on node 5002 and 5003. 
-http://127.0.0.1:5002/get_chain
-http://127.0.0.1:5003/get_chain
-5. Use replace_chain on nodes 5002 and 5003, so that number of blocks matches on node 5001 matches with nodes 5002 and 5003.
-http://127.0.0.1:5003/replace_chain
-6. Check with the blocks of all the nodes, they have to be same, just check with the timestamps when a genesis block of node 5001 is created, which should match with all the blocks.
-7. Change the request to POST on node 5001 and add_transaction, copy the json code from add_transaction.
-http://127.0.0.1:5001/add_transaction
-{
-    "sender": "Hadelin",
-    "receiver": "Kirill",
-    "amount": 10000
-}
-8. Give enter, then change the request to GET and mine_block , so that transaction will be added to the blockchain.
-http://127.0.0.1:5001/mine_block
-
-•	Check the number of blocks on node 5002 and 5003. 
-1. http://127.0.0.1:5002/get_chain
-2. http://127.0.0.1:5003/get_chain
-
-
-•	Use replace_chain on nodes 5002 and 5003, so that number of blocks matches on node 5001 matches with nodes 5002 and 5003.
-http://127.0.0.1:5003/replace_chain
-
-•	Change the request to POST on node 5001 and add_transaction, copy the json code from add_transaction.
-http://127.0.0.1:5001/add_transaction
-{
-    "sender": "Hadelin",
-    "receiver": "You",
-    "amount": 100000
-}
- Give enter, then change the request to GET and mine_block , so that transaction will be added to the blockchain.
-http://127.0.0.1:5001/mine_block
-
-Now, all the blocks in the chain have to match with the blocks of node 5001,5002 and 5003.
-
-
-
 # References:
-1. https://www.anaconda.com/
-2. https://upload.wikimedia.org/wikipedia/commons/f/f4/Anaconda.Starting_page.png
-3. https://www.spyder-ide.org/
-4. https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1200px-Flask_logo.svg.png
+1. https://ethereum.org/en/
+2. K. Delmolino, M. Arnett, A. E. Kosba, A. Miller, and E. Shi, “Step by Step Towards Creating a Safe Smart Contract:  Lessons and Insights from a Cryptocurrency Lab,” IACR Cryptology ePrint Archive, vol. 2015, p. 460, 2015.
+
+
+
+
+
+
+
+
+
 
 
 
