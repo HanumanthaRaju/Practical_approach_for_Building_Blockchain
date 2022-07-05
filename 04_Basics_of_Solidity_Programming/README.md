@@ -70,7 +70,7 @@ Steps to be followed:
 4. Get Free Ether
 5. Track funds: Go to https://etherscan.io/ 
 
-![outcome](./05.jpg)
+![outcome](./05.JPG)
 
 # Lab: Use Remix IDE to Write your first Smart Contract
 Steps to be followed:
@@ -79,7 +79,7 @@ Steps to be followed:
 3. Deploy Smart Contract
 4. Smart Contract Interaction
 
-![outcome](./06.jpg)
+![outcome](./06.JPG)
 
 # Lab: Use different Blockchain Networks
 Steps to be followed:
