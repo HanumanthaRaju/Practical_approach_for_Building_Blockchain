@@ -42,7 +42,7 @@ Contract’s state is fetched from one node Owner
 
 ![outcome](./03.jpg)
 
-![outcome](./04.jpg)
+![outcome](./04.JPG)
 
 
 # Steps in developing a Smart Contract:
