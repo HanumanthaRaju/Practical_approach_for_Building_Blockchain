@@ -48,3 +48,34 @@ Postman is free to download and use for teams of any size. Wide support for all 
 
 
 
+#Decentralize Blockchain on several computers or servers:hadcoin_node_5001.py, hadcoin_node_5002.py, hadcoin_node_5003.py, nodes.json, transaction.json
+(here we are running on local host with three different terminals and port numbers) to create a crypto currency
+
+Open three consoles and run separate files on 5001, 5002 and 5003 ports respectively:
+
+![outcome](./09.jpg)
+
+
+
+
+
+![outcome](./10.jpg)
+
+
+
+
+
+![outcome](./11.jpg)
+
+
+
+
+![outcome](./12.jpg)
+
+
+
+
+
+
+
+
